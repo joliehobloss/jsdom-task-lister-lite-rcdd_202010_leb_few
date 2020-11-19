@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
 form.addEventListener( 'submit', function( event ) {
     let text = description.value;
     if ( text !== '' ) {
-      result.innerHTML += '<li>' + text + ' <button onclick="Delete(this);">Delete</button> </li>';
+      result.innerHTML += '<li>' + text + ' <button onclick="Delete(this);">x</button> </li>';
       description.value = '';
       
     }
