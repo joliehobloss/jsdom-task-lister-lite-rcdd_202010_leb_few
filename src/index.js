@@ -1,10 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
   // your code here
-  let form=document.getElementById("create-task-form");
+  let subButton=document.getElementById("sub-button");
   let description=document.getElementById("new-task-description");
   let result=document.getElementById("tasks");
   
-form.addEventListener( 'submit', function( event ) {
+subButton.addEventListener( 'click', function( event ) {
     let text = description.value;
     if ( text !== '' ) {
       result.innerHTML += '<li>' + text + ' <button onclick="Delete(this);">x</button> </li>';
