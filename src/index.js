@@ -11,8 +11,8 @@ result.innerHTML += '<li>' + description.value + ' <button onclick="Delete(this)
 
 });
 
-function Delete(currentEl){
-  currentEl.parentNode.parentNode.removeChild(currentEl.parentNode);
+function Delete(del){
+  del.parentNode.parentNode.removeChild(del.parentNode);
   }
 
     
