@@ -6,11 +6,11 @@ document.addEventListener("DOMContentLoaded", () => {
   
 subButton.addEventListener( 'click', function( event ) {
     let text = description.value;
-    if ( text !== '' ) {
+   // if ( text !== '' ) {
       result.innerHTML += '<li>' + text + ' <button onclick="Delete(this);">x</button> </li>';
-      description.value = '';
+     // description.value = '';
       
-    }
+  //  }
     event.preventDefault();
   }, false);
 
