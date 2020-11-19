@@ -8,6 +8,11 @@ subButton.addEventListener( 'click', function( event ) {
 /*result.innerHTML += '<li>' + description.value + ' <button onclick="Delete(this);">x</button> </li>';*/
 result.innerHTML += '<li>' + description.value + ' <button id="remove">x</button> </li>';
 
+document.getElementById("remove").addEventListener( 'click', function( event ) {
+
+  });
+
+
     event.preventDefault();
   });
 
