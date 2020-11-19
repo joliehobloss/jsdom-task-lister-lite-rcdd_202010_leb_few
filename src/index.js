@@ -8,15 +8,11 @@ subButton.addEventListener( 'click', function( event ) {
 result.innerHTML += '<li>' + description.value + ' <button onclick="Delete(this);">x</button> </li>';
     event.preventDefault();
   });
-  
-  function Delete(currentEl){
-  currentEl.parentNode.parentNode.removeChild(currentEl.parentNode);
-  }
 
 });
 
-/*function Delete(currentEl){
+function Delete(currentEl){
   currentEl.parentNode.parentNode.removeChild(currentEl.parentNode);
-  }*/
+  }
 
     
