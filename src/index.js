@@ -17,5 +17,4 @@ result.innerHTML += '<li>' + description.value + ' <button onclick="Delete(this)
 });
 
 
-     
-//result.innerHTML+=`<li>${description.value}<button>x</button></li>`;
+    
