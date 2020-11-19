@@ -9,12 +9,10 @@ result.innerHTML += '<li>' + description.value + ' <button onclick="Delete(this)
     event.preventDefault();
   });
 
+});
+
 function Delete(currentEl){
   currentEl.parentNode.parentNode.removeChild(currentEl.parentNode);
   }
-
-});
-
-
 
     
