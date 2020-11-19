@@ -6,12 +6,13 @@ document.addEventListener("DOMContentLoaded", () => {
   
 subButten.addEventListener("click",function(event) {
 result.innerHTML += '<li>' + description.value + ' <button onclick="Delete(this);">x</button> </li>';
- function Delete(currentEl){
-  currentEl.parentNode.parentNode.removeChild(currentEl.parentNode);
-  }
-
+ 
   event.preventDefault();
 });
+
+function Delete(currentEl){
+  currentEl.parentNode.parentNode.removeChild(currentEl.parentNode);
+  }
 
 
 });
