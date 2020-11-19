@@ -5,12 +5,8 @@ document.addEventListener("DOMContentLoaded", () => {
   let result=document.getElementById("tasks");
   
 subButton.addEventListener( 'click', function( event ) {
-    let text = description.value;
-   // if ( text !== '' ) {
-      result.innerHTML += '<li>' + text + ' <button onclick="Delete(this);">x</button> </li>';
-     // description.value = '';
-      
-  //  }
+result.innerHTML += '<li>' + description.value + ' <button onclick="Delete(this);">x</button> </li>';
+  
     event.preventDefault();
   }, false);
 
