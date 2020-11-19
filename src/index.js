@@ -16,6 +16,8 @@ form.addEventListener( 'submit', function( event ) {
 
 });
 
-
+function Delete(currentEl){
+  currentEl.parentNode.parentNode.removeChild(currentEl.parentNode);
+  }
 
     
