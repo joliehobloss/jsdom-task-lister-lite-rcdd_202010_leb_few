@@ -9,7 +9,7 @@ subButton.addEventListener( 'click', function( event ) {
 result.innerHTML += '<li>' + description.value + ' <button id="remove">x</button> </li>';
 
 document.getElementById("remove").addEventListener( 'click', function( event ) {
-
+currentEl.parentNode.parentNode.removeChild(currentEl.parentNode);
   });
 
 
